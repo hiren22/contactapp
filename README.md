@@ -19,5 +19,5 @@ $ java -jar target/contactapp.jar
 * Pass username=admin and pwd=trypwd to authenticate
 * Save contact:POST http://localhost:8080/rest/contactapp/v1/  --data @user.json
 * Get contacts:GET http://localhost:8080/rest/contactapp/v1/contacts?name=user1&page=1
-* Search contacts:GET http://localhost:8080/rest/contactapp/v1/contacts?email=pattern&page=1
+* Search contacts:GET http://localhost:8080/rest/contactapp/v1/contacts?email=user&page=1
 * Delete id:DELETE http://localhost:8080/rest/contactapp/v1/contacts/user1
